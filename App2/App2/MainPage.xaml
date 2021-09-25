@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App2.MainPage">
+
+    <StackLayout>
+        <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+            <Label Text="Bienvenido a Xamarin.Forms!" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+        <Button Text="Inicia contador aqui" Clicked="IniciaContador">
+
+        </Button>
+        <Label Text="Empezemos a desarrollar" FontSize="Title" Padding="30,10,30,10"/>
+        <Label Text="Esto es una prueba para ver los updates!" FontSize="16" Padding="30,0,30,0"/>
+
+        <Button Text="Resetea contador" Clicked="ReiniciaContador">
+        </Button>
+
+    </StackLayout>
+    
+
+</ContentPage>
